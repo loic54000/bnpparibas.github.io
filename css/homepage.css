@@ -1,0 +1,409 @@
+/* =========================== General =========================== */
+body{
+    line-height: 1.42857143;
+}
+
+.active{
+    background-color:#333333 !important;
+}
+
+a{
+    color:#333333;
+}
+
+a:hover {
+    color: #333333;
+}
+
+h2{
+    font-weight: 600 !important;
+    font-size: 1.5em;
+}
+
+h3{
+    font-size:1.3em;
+}
+
+h4{
+    font-size:1.1em;
+}
+
+h5{
+    font-size:0.8em;
+}
+
+h2.title-section{
+    font-size: 2.5em;
+}
+
+.vh-10{
+    height:10vh;
+}
+
+.vh-20{
+    height:20vh;
+}
+
+.vh-30{
+    height:30vh;
+}
+
+.vh-40{
+    height:40vh;
+}
+
+.vh-50{
+    height:50vh;
+}
+
+.vh-60{
+    height:60vh;
+}
+
+.vh-70{
+    height:70vh;
+}
+
+.vh-80{
+    height:80vh;
+}
+
+.vh-90{
+    height:90vh;
+}
+
+.bg-black{
+    background-color:#333333;
+}
+
+.bg-lightgray{
+    background-color:#eeeeee;
+}
+
+.bg-green{
+    background-color:#007942;
+}
+
+.white{
+    color:#ffffff;
+}
+
+.black{
+    color:#333333;
+}
+
+.green{
+    color:#007942;
+}
+
+.layer{
+    background-color: rgba(0, 121, 66, 0.7);
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.line-height-1{
+    line-height:12px;
+}
+
+.line-height-2{
+    line-height:20px;
+}
+
+.line-height-3{
+    line-height:60px;
+}
+
+.btn-bnp{
+    background-color:#ffffff;
+    color:#007942;
+}
+
+.btn-bnp-news{
+    border-radius:0 !important; /* important car conflit avec la feuille de style du CDN de bnp baripas */
+    background-color:#333333;
+    color:#ffffff;
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+
+.btn-bnp-news:hover{
+    color:#5dc66a !important;
+}
+
+.btn-bnp-news:focus{
+    color:#5dc66a !important;
+}
+
+.date-post{
+    color:#ffffff;
+    font-size: 12px;
+}
+
+.card{
+    background-color:transparent;
+    border:none;
+    color:#ffffff;
+    border-radius:0;
+}
+
+.card p{
+    color:#ffffff;
+    font-size: 0.8em;
+    line-height: 12px;
+}
+
+.card-body{
+    position:relative !important;
+    text-shadow:0px 0px 10px #6B6B6B;
+    filter: Shadow(Color=#6B6B6B, Direction=130, Strength=4);
+}
+
+.more-info{
+    position:absolute;
+    bottom:2rem;
+}
+
+.more-info a:hover{
+    color:#ffffff;
+}
+
+.bloc-content{
+    padding:1rem;
+}
+
+.badge{
+    border-radius:5px !important;
+    color:#ffffff;
+    padding:0.5rem;
+}
+
+.badge:hover{
+    color:#ffffff;
+}
+
+.badge-green{
+    background-color:#007942 !important; /* important car conflit avec la feuille de style du CDN de bnp baripas */
+    border-radius:5px !important;
+    color:#ffffff;
+}
+
+/* ========================= section 1 =========================== */
+
+.conteneur-slide{
+    width:100%;
+    display: block;
+    color:#ffffff;
+    position: relative;
+}
+
+.outside{
+    width: 55%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    background-color: #ffffff;
+    -webkit-clip-path: polygon(0% 0%, 97% 0%, 100% 50%, 95% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 97% 0%, 100% 50%, 95% 100%, 0% 100%);
+    z-index: 900;
+}
+
+
+.inside{
+    width: 100%;
+    margin-left:-3px;
+    position: absolute;
+    -webkit-clip-path: polygon(0% 0%, 97% 0%, 100% 50%, 95% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 97% 0%, 100% 50%, 95% 100%, 0% 100%);
+    z-index: 999;
+}
+
+.conteneur-slide-1 .card{
+    background-color: transparent;
+    border:none;
+    color:#ffffff;
+    max-width: 600px;
+}
+
+.conteneur-slide-1 .card h1{
+    font-size:2.5em;
+}
+
+.conteneur-slide date{
+    color:#ffffff;
+}
+
+/* corner effect slide-1 */
+.corner {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: 0 0 0 20px;
+}
+
+.corner:after {
+    display: block;
+    content: "";
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+}
+
+.conteneur-slide-2{
+    width: 50%;
+    right: 0;
+    position: absolute;
+}
+
+.conteneur-slide-2 .conteneur-1{
+    width: 100%;
+    display: block;
+    position: relative;
+    height: 50vh;
+    background-size:cover;
+    border-bottom:1.5px solid #ffffff;
+}
+
+.conteneur-slide-2 .conteneur-1 .card{
+    background-color: transparent;
+    max-width: 500px;
+}
+
+.conteneur-slide-2 .conteneur-2 .card{
+    background-color: transparent;
+    border:none;
+    color:#ffffff;
+    max-width: 500px;
+}
+
+.conteneur-slide-2 .conteneur-2{
+    width: 100%;
+    display: block;
+    position: relative;
+    height:50vh;
+    background-size:cover;
+    border-top:1.5px solid #ffffff;
+}
+
+.conteneur-slide-2 .blank-green{
+    background-color:rgba(0,121,66, 0.8);
+    height: 100%;
+    width:50%;
+    position: absolute;
+    -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+
+}
+
+/* ===================== section 1 RESPONSIVE =====================*/
+
+/* ============ carousel responsive ============= */
+.carousel-item {
+    height: 50vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+  }
+
+  .carousel-indicators{
+    top:0;
+  }
+
+  .carousel-indicators li{
+    height:30px;
+  }
+
+  .carousel-item h1{
+      font-size:17px;
+  }
+
+  .carousel-item h2{
+      font-size:15px;
+  }
+
+  .carousel-caption{
+      top:40px;
+      text-shadow:0px 0px 10px #6B6B6B;
+      text-align:left;
+      filter: Shadow(Color=#6B6B6B, Direction=130, Strength=4);
+      right:10%;
+      left:10%;
+  }
+
+  .btn-bnp-carousel {
+    background-color: #ffffff;
+    color: #007942;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+  /* ========== end of carousel responsive ========= */
+
+/* ========================= section 2 =========================== */
+
+
+.bloc-cta{
+    background-color:#007942;
+    color:#ffffff;
+}
+
+.projets-cta{
+    background:no-repeat url('/images/nos-projets.jpg');
+    background-size:cover;
+    color:#ffffff;
+}
+
+
+.bloc-mecenat h2 > span.display-1, span.display-4{
+    color:#ffffff;
+    font-weight: 700;
+    padding:3rem;
+}
+
+/* ========================= section 3 =========================== */
+
+.bloc-news{
+    min-height: 350px;
+}
+
+.bloc-news h2{
+    font-size:1.3em;
+}
+
+/* ========================= section 4 footer =========================== */
+
+#section-4 li.nav-item a.nav-link:hover{
+    background-color:#333333;
+    color:#ffffff;
+}
+
+.page-footer ul li a{
+    color:#ffffff;
+    font-size:0.8em;
+}
+
+.page-footer li a i{
+    margin-right: 5px;
+}
+
+.page-footer h5{
+    color:#5dc66a;
+    padding: 12px 20px;
+    border-left: 2px solid #5dc66a;
+    
+}
+
+.page-footer ul li {
+   margin-right: 5px; 
+}
