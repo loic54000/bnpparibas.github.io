@@ -359,7 +359,7 @@ h2.title-section{
 }
 
 .projets-cta{
-    background:no-repeat url('/images/nos-projets.jpg');
+    background:no-repeat url('./images/nos-projets.jpg');
     background-size:cover;
     color:#ffffff;
 }
